@@ -1,4 +1,5 @@
-package com.company;
+package com.company.Homework1;
+import com.company.Homework2.Student;
 import java.util.Scanner;
 public class Main {
 
@@ -7,6 +8,8 @@ public class Main {
 
 
     public static void main(String[] args) {
+        Student student = new Student();
+        student.answer();
         int[] inputArray;
         Scanner input = new Scanner(System.in);
 
